@@ -543,10 +543,10 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "3.4.4",
+      "Version": "3.4.0",
       "Source": "Repository",
       "Title": "Create Elegant Data Visualisations Using the Grammar of Graphics",
-      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\", comment = c(ORCID = \"0000-0003-4757-117X\")), person(\"Winston\", \"Chang\", role = \"aut\", comment = c(ORCID = \"0000-0002-1576-2126\")), person(\"Lionel\", \"Henry\", role = \"aut\"), person(\"Thomas Lin\", \"Pedersen\", , \"thomas.pedersen@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-5147-4711\")), person(\"Kohske\", \"Takahashi\", role = \"aut\"), person(\"Claus\", \"Wilke\", role = \"aut\", comment = c(ORCID = \"0000-0002-7470-9261\")), person(\"Kara\", \"Woo\", role = \"aut\", comment = c(ORCID = \"0000-0002-5125-4188\")), person(\"Hiroaki\", \"Yutani\", role = \"aut\", comment = c(ORCID = \"0000-0002-3385-7233\")), person(\"Dewey\", \"Dunnington\", role = \"aut\", comment = c(ORCID = \"0000-0002-9415-4582\")), person(\"Posit, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\", comment = c(ORCID = \"0000-0003-4757-117X\")), person(\"Winston\", \"Chang\", role = \"aut\", comment = c(ORCID = \"0000-0002-1576-2126\")), person(\"Lionel\", \"Henry\", role = \"aut\"), person(\"Thomas Lin\", \"Pedersen\", , \"thomas.pedersen@rstudio.com\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-5147-4711\")), person(\"Kohske\", \"Takahashi\", role = \"aut\"), person(\"Claus\", \"Wilke\", role = \"aut\", comment = c(ORCID = \"0000-0002-7470-9261\")), person(\"Kara\", \"Woo\", role = \"aut\", comment = c(ORCID = \"0000-0002-5125-4188\")), person(\"Hiroaki\", \"Yutani\", role = \"aut\", comment = c(ORCID = \"0000-0002-3385-7233\")), person(\"Dewey\", \"Dunnington\", role = \"aut\", comment = c(ORCID = \"0000-0002-9415-4582\")), person(\"RStudio\", role = c(\"cph\", \"fnd\")) )",
       "Description": "A system for 'declaratively' creating graphics, based on \"The Grammar of Graphics\". You provide the data, tell 'ggplot2' how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.",
       "License": "MIT + file LICENSE",
       "URL": "https://ggplot2.tidyverse.org, https://github.com/tidyverse/ggplot2",
@@ -564,7 +564,7 @@
         "lifecycle (> 1.0.1)",
         "MASS",
         "mgcv",
-        "rlang (>= 1.1.0)",
+        "rlang (>= 1.0.0)",
         "scales (>= 1.2.0)",
         "stats",
         "tibble",
@@ -581,6 +581,7 @@
         "lattice",
         "mapproj",
         "maps",
+        "maptools",
         "multcomp",
         "munsell",
         "nlme",
@@ -588,6 +589,7 @@
         "quantreg",
         "ragg",
         "RColorBrewer",
+        "rgeos",
         "rmarkdown",
         "rpart",
         "sf (>= 0.7-3)",
@@ -604,11 +606,11 @@
       "Config/testthat/edition": "3",
       "Encoding": "UTF-8",
       "LazyData": "true",
-      "RoxygenNote": "7.2.3",
-      "Collate": "'ggproto.R' 'ggplot-global.R' 'aaa-.R' 'aes-colour-fill-alpha.R' 'aes-evaluation.R' 'aes-group-order.R' 'aes-linetype-size-shape.R' 'aes-position.R' 'compat-plyr.R' 'utilities.R' 'aes.R' 'utilities-checks.R' 'legend-draw.R' 'geom-.R' 'annotation-custom.R' 'annotation-logticks.R' 'geom-polygon.R' 'geom-map.R' 'annotation-map.R' 'geom-raster.R' 'annotation-raster.R' 'annotation.R' 'autolayer.R' 'autoplot.R' 'axis-secondary.R' 'backports.R' 'bench.R' 'bin.R' 'coord-.R' 'coord-cartesian-.R' 'coord-fixed.R' 'coord-flip.R' 'coord-map.R' 'coord-munch.R' 'coord-polar.R' 'coord-quickmap.R' 'coord-sf.R' 'coord-transform.R' 'data.R' 'facet-.R' 'facet-grid-.R' 'facet-null.R' 'facet-wrap.R' 'fortify-lm.R' 'fortify-map.R' 'fortify-multcomp.R' 'fortify-spatial.R' 'fortify.R' 'stat-.R' 'geom-abline.R' 'geom-rect.R' 'geom-bar.R' 'geom-bin2d.R' 'geom-blank.R' 'geom-boxplot.R' 'geom-col.R' 'geom-path.R' 'geom-contour.R' 'geom-count.R' 'geom-crossbar.R' 'geom-segment.R' 'geom-curve.R' 'geom-defaults.R' 'geom-ribbon.R' 'geom-density.R' 'geom-density2d.R' 'geom-dotplot.R' 'geom-errorbar.R' 'geom-errorbarh.R' 'geom-freqpoly.R' 'geom-function.R' 'geom-hex.R' 'geom-histogram.R' 'geom-hline.R' 'geom-jitter.R' 'geom-label.R' 'geom-linerange.R' 'geom-point.R' 'geom-pointrange.R' 'geom-quantile.R' 'geom-rug.R' 'geom-sf.R' 'geom-smooth.R' 'geom-spoke.R' 'geom-text.R' 'geom-tile.R' 'geom-violin.R' 'geom-vline.R' 'ggplot2-package.R' 'grob-absolute.R' 'grob-dotstack.R' 'grob-null.R' 'grouping.R' 'guide-bins.R' 'guide-colorbar.R' 'guide-colorsteps.R' 'guide-legend.R' 'guides-.R' 'guides-axis.R' 'guides-grid.R' 'guides-none.R' 'hexbin.R' 'import-standalone-obj-type.R' 'import-standalone-types-check.R' 'labeller.R' 'labels.R' 'layer.R' 'layer-sf.R' 'layout.R' 'limits.R' 'margins.R' 'performance.R' 'plot-build.R' 'plot-construction.R' 'plot-last.R' 'plot.R' 'position-.R' 'position-collide.R' 'position-dodge.R' 'position-dodge2.R' 'position-identity.R' 'position-jitter.R' 'position-jitterdodge.R' 'position-nudge.R' 'position-stack.R' 'quick-plot.R' 'reshape-add-margins.R' 'save.R' 'scale-.R' 'scale-alpha.R' 'scale-binned.R' 'scale-brewer.R' 'scale-colour.R' 'scale-continuous.R' 'scale-date.R' 'scale-discrete-.R' 'scale-expansion.R' 'scale-gradient.R' 'scale-grey.R' 'scale-hue.R' 'scale-identity.R' 'scale-linetype.R' 'scale-linewidth.R' 'scale-manual.R' 'scale-shape.R' 'scale-size.R' 'scale-steps.R' 'scale-type.R' 'scale-view.R' 'scale-viridis.R' 'scales-.R' 'stat-align.R' 'stat-bin.R' 'stat-bin2d.R' 'stat-bindot.R' 'stat-binhex.R' 'stat-boxplot.R' 'stat-contour.R' 'stat-count.R' 'stat-density-2d.R' 'stat-density.R' 'stat-ecdf.R' 'stat-ellipse.R' 'stat-function.R' 'stat-identity.R' 'stat-qq-line.R' 'stat-qq.R' 'stat-quantilemethods.R' 'stat-sf-coordinates.R' 'stat-sf.R' 'stat-smooth-methods.R' 'stat-smooth.R' 'stat-sum.R' 'stat-summary-2d.R' 'stat-summary-bin.R' 'stat-summary-hex.R' 'stat-summary.R' 'stat-unique.R' 'stat-ydensity.R' 'summarise-plot.R' 'summary.R' 'theme-elements.R' 'theme.R' 'theme-defaults.R' 'theme-current.R' 'utilities-break.R' 'utilities-grid.R' 'utilities-help.R' 'utilities-matrix.R' 'utilities-resolution.R' 'utilities-table.R' 'utilities-tidy-eval.R' 'zxx.R' 'zzz.R'",
+      "RoxygenNote": "7.2.1",
+      "Collate": "'ggproto.r' 'ggplot-global.R' 'aaa-.r' 'aes-colour-fill-alpha.r' 'aes-evaluation.r' 'aes-group-order.r' 'aes-linetype-size-shape.r' 'aes-position.r' 'compat-plyr.R' 'utilities.r' 'aes.r' 'legend-draw.r' 'geom-.r' 'annotation-custom.r' 'annotation-logticks.r' 'geom-polygon.r' 'geom-map.r' 'annotation-map.r' 'geom-raster.r' 'annotation-raster.r' 'annotation.r' 'autolayer.r' 'autoplot.r' 'axis-secondary.R' 'backports.R' 'bench.r' 'bin.R' 'coord-.r' 'coord-cartesian-.r' 'coord-fixed.r' 'coord-flip.r' 'coord-map.r' 'coord-munch.r' 'coord-polar.r' 'coord-quickmap.R' 'coord-sf.R' 'coord-transform.r' 'data.R' 'facet-.r' 'facet-grid-.r' 'facet-null.r' 'facet-wrap.r' 'fortify-lm.r' 'fortify-map.r' 'fortify-multcomp.r' 'fortify-spatial.r' 'fortify.r' 'stat-.r' 'geom-abline.r' 'geom-rect.r' 'geom-bar.r' 'geom-bin2d.r' 'geom-blank.r' 'geom-boxplot.r' 'geom-col.r' 'geom-path.r' 'geom-contour.r' 'geom-count.r' 'geom-crossbar.r' 'geom-segment.r' 'geom-curve.r' 'geom-defaults.r' 'geom-ribbon.r' 'geom-density.r' 'geom-density2d.r' 'geom-dotplot.r' 'geom-errorbar.r' 'geom-errorbarh.r' 'geom-freqpoly.r' 'geom-function.R' 'geom-hex.r' 'geom-histogram.r' 'geom-hline.r' 'geom-jitter.r' 'geom-label.R' 'geom-linerange.r' 'geom-point.r' 'geom-pointrange.r' 'geom-quantile.r' 'geom-rug.r' 'geom-sf.R' 'geom-smooth.r' 'geom-spoke.r' 'geom-text.r' 'geom-tile.r' 'geom-violin.r' 'geom-vline.r' 'ggplot2-package.R' 'grob-absolute.r' 'grob-dotstack.r' 'grob-null.r' 'grouping.r' 'guide-bins.R' 'guide-colorbar.r' 'guide-colorsteps.R' 'guide-legend.r' 'guides-.r' 'guides-axis.r' 'guides-grid.r' 'guides-none.r' 'hexbin.R' 'labeller.r' 'labels.r' 'layer.r' 'layer-sf.R' 'layout.R' 'limits.r' 'margins.R' 'performance.R' 'plot-build.r' 'plot-construction.r' 'plot-last.r' 'plot.r' 'position-.r' 'position-collide.r' 'position-dodge.r' 'position-dodge2.r' 'position-identity.r' 'position-jitter.r' 'position-jitterdodge.R' 'position-nudge.R' 'position-stack.r' 'quick-plot.r' 'range.r' 'reshape-add-margins.R' 'save.r' 'scale-.r' 'scale-alpha.r' 'scale-binned.R' 'scale-brewer.r' 'scale-colour.r' 'scale-continuous.r' 'scale-date.r' 'scale-discrete-.r' 'scale-expansion.r' 'scale-gradient.r' 'scale-grey.r' 'scale-hue.r' 'scale-identity.r' 'scale-linetype.r' 'scale-linewidth.R' 'scale-manual.r' 'scale-shape.r' 'scale-size.r' 'scale-steps.R' 'scale-type.R' 'scale-view.r' 'scale-viridis.r' 'scales-.r' 'stat-align.R' 'stat-bin.r' 'stat-bin2d.r' 'stat-bindot.r' 'stat-binhex.r' 'stat-boxplot.r' 'stat-contour.r' 'stat-count.r' 'stat-density-2d.r' 'stat-density.r' 'stat-ecdf.r' 'stat-ellipse.R' 'stat-function.r' 'stat-identity.r' 'stat-qq-line.R' 'stat-qq.r' 'stat-quantile.r' 'stat-sf-coordinates.R' 'stat-sf.R' 'stat-smooth-methods.r' 'stat-smooth.r' 'stat-sum.r' 'stat-summary-2d.r' 'stat-summary-bin.R' 'stat-summary-hex.r' 'stat-summary.r' 'stat-unique.r' 'stat-ydensity.r' 'summarise-plot.R' 'summary.r' 'theme-elements.r' 'theme.r' 'theme-defaults.r' 'theme-current.R' 'utilities-break.r' 'utilities-grid.r' 'utilities-help.r' 'utilities-matrix.r' 'utilities-resolution.r' 'utilities-table.r' 'utilities-tidy-eval.R' 'zxx.r' 'zzz.r'",
       "NeedsCompilation": "no",
-      "Author": "Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>), Winston Chang [aut] (<https://orcid.org/0000-0002-1576-2126>), Lionel Henry [aut], Thomas Lin Pedersen [aut, cre] (<https://orcid.org/0000-0002-5147-4711>), Kohske Takahashi [aut], Claus Wilke [aut] (<https://orcid.org/0000-0002-7470-9261>), Kara Woo [aut] (<https://orcid.org/0000-0002-5125-4188>), Hiroaki Yutani [aut] (<https://orcid.org/0000-0002-3385-7233>), Dewey Dunnington [aut] (<https://orcid.org/0000-0002-9415-4582>), Posit, PBC [cph, fnd]",
-      "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
+      "Author": "Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>), Winston Chang [aut] (<https://orcid.org/0000-0002-1576-2126>), Lionel Henry [aut], Thomas Lin Pedersen [aut, cre] (<https://orcid.org/0000-0002-5147-4711>), Kohske Takahashi [aut], Claus Wilke [aut] (<https://orcid.org/0000-0002-7470-9261>), Kara Woo [aut] (<https://orcid.org/0000-0002-5125-4188>), Hiroaki Yutani [aut] (<https://orcid.org/0000-0002-3385-7233>), Dewey Dunnington [aut] (<https://orcid.org/0000-0002-9415-4582>), RStudio [cph, fnd]",
+      "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@rstudio.com>",
       "Repository": "RSPM"
     },
     "glue": {
@@ -862,6 +864,52 @@
       "Author": "Lionel Henry [aut, cre], Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>), Posit Software, PBC [cph, fnd]",
       "Maintainer": "Lionel Henry <lionel@posit.co>",
       "Repository": "CRAN"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.7.9",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Make Dealing with Dates a Little Easier",
+      "Authors@R": "c(person(given = \"Vitalie\", family = \"Spinu\", role = c(\"aut\", \"cre\"), email = \"spinuvit@gmail.com\"), person(given = \"Garrett\", family = \"Grolemund\", role = \"aut\"), person(given = \"Hadley\", family = \"Wickham\", role = \"aut\"), person(given = \"Ian\", family = \"Lyttle\", role = \"ctb\"), person(given = \"Imanuel\", family = \"Costigan\", role = \"ctb\"), person(given = \"Jason\", family = \"Law\", role = \"ctb\"), person(given = \"Doug\", family = \"Mitarotonda\", role = \"ctb\"), person(given = \"Joseph\", family = \"Larmarange\", role = \"ctb\"), person(given = \"Jonathan\", family = \"Boiser\", role = \"ctb\"), person(given = \"Chel Hee\", family = \"Lee\", role = \"ctb\"))",
+      "Maintainer": "Vitalie Spinu <spinuvit@gmail.com>",
+      "Description": "Functions to work with date-times and time-spans: fast and user friendly parsing of date-time data, extraction and updating of components of a date-time (years, months, days, hours, minutes, and seconds), algebraic manipulation on date-time and time-span objects. The 'lubridate' package has a consistent and memorable syntax that makes working with dates easy and fun.  Parts of the 'CCTZ' source code, released under the Apache 2.0 License, are included in this package. See <https://github.com/google/cctz> for more details.",
+      "License": "GPL (>= 2)",
+      "URL": "http://lubridate.tidyverse.org, https://github.com/tidyverse/lubridate",
+      "BugReports": "https://github.com/tidyverse/lubridate/issues",
+      "Depends": [
+        "methods",
+        "R (>= 3.2)"
+      ],
+      "Imports": [
+        "generics",
+        "Rcpp (>= 0.12.13)"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "testthat (>= 2.1.0)",
+        "vctrs (>= 0.3.0)"
+      ],
+      "Enhances": [
+        "chron",
+        "timeDate",
+        "tis",
+        "zoo"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "VignetteBuilder": "knitr",
+      "Encoding": "UTF-8",
+      "LazyData": "true",
+      "RoxygenNote": "7.1.0",
+      "SystemRequirements": "A system with zoneinfo data (e.g. /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.",
+      "Collate": "'Dates.r' 'POSIXt.r' 'RcppExports.R' 'util.r' 'parse.r' 'timespans.r' 'intervals.r' 'difftimes.r' 'durations.r' 'periods.r' 'accessors-date.R' 'accessors-day.r' 'accessors-dst.r' 'accessors-hour.r' 'accessors-minute.r' 'accessors-month.r' 'accessors-quarter.r' 'accessors-second.r' 'accessors-tz.r' 'accessors-week.r' 'accessors-year.r' 'am-pm.r' 'time-zones.r' 'numeric.r' 'coercion.r' 'constants.r' 'cyclic_encoding.r' 'data.r' 'decimal-dates.r' 'deprecated.r' 'format_ISO8601.r' 'guess.r' 'hidden.r' 'instants.r' 'leap-years.r' 'ops-addition.r' 'ops-compare.r' 'ops-division.r' 'ops-integer-division.r' 'ops-m+.r' 'ops-modulo.r' 'ops-multiplication.r' 'ops-subtraction.r' 'package.r' 'pretty.r' 'round.r' 'stamp.r' 'update.r' 'vctrs.R' 'zzz.R'",
+      "NeedsCompilation": "yes",
+      "Author": "Vitalie Spinu [aut, cre], Garrett Grolemund [aut], Hadley Wickham [aut], Ian Lyttle [ctb], Imanuel Costigan [ctb], Jason Law [ctb], Doug Mitarotonda [ctb], Joseph Larmarange [ctb], Jonathan Boiser [ctb], Chel Hee Lee [ctb]",
+      "Repository": "RSPM",
+      "ExperimentalWindowsRuntime": "ucrt"
     },
     "magrittr": {
       "Package": "magrittr",
