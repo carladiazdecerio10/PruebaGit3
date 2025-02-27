@@ -51,11 +51,24 @@ ggsave("output/bee_histogram.png")
 write.csv(bee_summary, "output/bee_summary.csv", row.names = FALSE)
 write.csv(women_summary, "output/women_summary.csv", row.names = FALSE)
 
+
+
+
+
+library(lubridate)
+fecha <- ymd("2024-02-27")
+print(fecha)
+
+
+
+
+
+
 # Congelar el entorno
 renv::snapshot()
 
 # Para restaurar el proyecto en otro equipo, ejecutar: 
 # renv::restore()
 
-#Esta linea se ha anadido para ver si git push/pull funcionan correctamente
+
 
